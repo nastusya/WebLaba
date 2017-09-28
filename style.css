@@ -34,9 +34,6 @@ a{color: #ABCB89;}
   opacity: 1;
   display: block;
   float: right;
-  width: 100%;
-  margin: 5px;
-  margin-left: 10px;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -52,13 +49,9 @@ a{color: #ABCB89;}
   -ms-transform: translate(-50%, -50%)
 }
 
-.container:hover .image {
-  opacity: 0.3;
-}
+.container:hover .image { opacity: 0.3; }
 
-.container:hover .middle {
-  opacity: 1;
-}
+.container:hover .middle { opacity: 1; }
 
 .dropbutton{
   position: relative;
@@ -117,14 +110,14 @@ h1{
   text-align: center;
   font-size: 32px;
   font-family: Lisichka Comic;
-  color:#212121;
+  color:#000000;
 }
 
 h2{
   text-align: left;
-  font-family: AdonisC;
-  margin-left: 8%;
-  font-size: 28px;
+  font-family:  Lisichka Comic;
+  margin-left: 17%;
+  font-size: 24px;
   color:#212121;
 }
 
@@ -139,25 +132,25 @@ p{
   text-align: center;
   font-family:Minion Pro;
   color:#212121;
-  margin-left: 8%;
-  margin-right: 8%;
-  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
 }
 
 ul{
   text-align:left;
   font-family:Minion Pro;
-  margin-left: 8%;
-  margin-right: 8%;
-  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
   color:#212121;
 }
 
 ol{
   text-align: left;
   font-family:Minion Pro;
-  margin-left: 8%;
-  margin-right: 8%;
-  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
   color:#212121;
 }
