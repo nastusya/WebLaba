@@ -2,6 +2,68 @@ html{background-color: #FAFAFA;}
 
 a{color: #ABCB89;}
 
+nav{
+  font-family: serif;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1{
+  text-align: center;
+  font-size: 36px;
+  font-family: Lisichka Comic;
+  color:#000000;
+}
+
+h2{
+  text-align: left;
+  font-family:  Lisichka Comic;
+  margin-left: 17%;
+  font-size: 24px;
+  color:#212121;
+}
+
+h3{
+  text-align: center;
+  font-size: 26px;
+  font-family: Lisichka Comic;
+  color: #212121;
+}
+h4{
+  text-align: center;
+  font-size: 22px;
+  font-family: Lisichka Comic;
+  color: #212121;
+}
+
+p{
+  text-align: center;
+  font-family:Minion Pro;
+  color:#212121;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+}
+
+ul{
+  text-align:left;
+  font-family:Minion Pro;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+  color:#212121;
+}
+
+ol{
+  text-align: left;
+  font-family:Minion Pro;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+  color:#212121;
+}
+
 .button{
     position: relative;
     background-color: #AED581;
@@ -99,58 +161,69 @@ a{color: #ABCB89;}
 
 .dropdown:hover .dropbtn { background-color: #3e8e41;}
 
-div{
-  font-family: serif;
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+#myDIV {
+    width: 140px;
+    background-color:#AED581;
+    margin: auto;
+    -webkit-animation: mymove 8s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 8s infinite;
 }
 
-h1{
-  text-align: center;
-  font-size: 32px;
-  font-family: Lisichka Comic;
-  color:#000000;
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {width: 600px;}
+
 }
 
-h2{
-  text-align: left;
-  font-family:  Lisichka Comic;
-  margin-left: 17%;
-  font-size: 24px;
-  color:#212121;
+/* Standard syntax */
+@keyframes mymove {
+    50% {width: 600px;}
 }
 
-h3{
-  text-align: center;
-  font-size: 26px;
-  font-family: Lisichka Comic;
-  color: #212121;
+div.gallery {
+    border: 1px solid #ccc;
 }
 
-p{
-  text-align: center;
-  font-family:Minion Pro;
-  color:#212121;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 22px;
+div.gallery:hover {
+    border: 1px solid #777;
 }
 
-ul{
-  text-align:left;
-  font-family:Minion Pro;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 22px;
-  color:#212121;
+div.gallery img {
+    width: 100%;
+    height: auto;
 }
 
-ol{
-  text-align: left;
-  font-family:Minion Pro;
-  margin-left: 15%;
-  margin-right: 15%;
-  font-size: 22px;
-  color:#212121;
+div.desc {
+    padding: 15px;
+    text-align: center;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
