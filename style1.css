@@ -1,0 +1,202 @@
+html{background-color: #FAFAFA;}
+
+footer{margin-top:2%;}
+footer a {color:#ABCB89;
+}
+ nav{
+   background-color:#AED581;
+   color: #F1F8E9;
+   font-family: Lisichka Comic;
+ }
+
+.nav-link,.dropdown-item{font-family: Lisichka Comic;}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:#b6db8c;
+}
+
+.active {
+    background-color:#AED581;
+}
+
+h2{
+  text-align: left;
+  margin-top: 2%;
+  font-family:  Lisichka Comic;
+  margin-left: 17%;
+  font-size: 26px;
+  color:#212121;
+}
+
+h3{
+  margin-top: 3%;
+  text-align: center;
+  font-size: 26px;
+  font-family: Lisichka Comic;
+  color: #212121;
+}
+.desc,h4{
+  text-align: center;
+  font-size: 22px;
+  font-family: Lisichka Comic;
+  color: #212121;
+}
+div.p{
+  text-align: center;
+  font-family:Minion Pro;
+  color:#212121;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+}
+p{
+  text-align: center;
+  font-family:Minion Pro;
+  color:#212121;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+}
+
+ul{
+  text-align:left;
+  font-family:Minion Pro;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+  color:#212121;
+}
+
+ol{
+  text-align: left;
+  font-family:Minion Pro;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 22px;
+  color:#212121;
+}
+
+div.h1{
+  margin-top:2%;
+  text-align: center;
+  font-size: 36px;
+  font-family: Lisichka Comic;
+  color:#000000;
+}
+div.h2{
+  text-align: left;
+  font-family:  Lisichka Comic;
+  font-size: 26px;
+  color:#212121;
+}
+
+div.h3{
+  margin-top: 3%;
+  text-align: center;
+  font-size: 26px;
+  font-family: Lisichka Comic;
+  color: #212121;
+}
+
+
+.image {
+  margin-top: 2%;
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image { opacity: 0.3; }
+
+.container:hover .middle { opacity: 1; }
+
+
+
+#myDIV {
+    width: 140px;
+    background-color:#AED581;
+    margin: auto;
+    margin-top: 1%;
+    font-family: Lisichka Comic;
+    -webkit-animation: mymove 10s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 10s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {width: 500px;}
+
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {width: 500px;}
+}
+
+
+div.gallery {
+  margin-top: 2%;
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+
+}
+
+* { box-sizing: border-box;}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
