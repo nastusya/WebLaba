@@ -131,37 +131,11 @@ div.h3{
 .container:hover .middle { opacity: 1; }
 
 
-
-#myDIV {
-    width: 140px;
-    background-color:#AED581;
-    margin: auto;
-    margin-top: 1%;
-    font-family: Lisichka Comic;
-    -webkit-animation: mymove 10s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 10s infinite;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
-    50% {width: 500px;}
-
-}
-
-/* Standard syntax */
-@keyframes mymove {
-    50% {width: 500px;}
-}
-
-
 div.gallery {
   margin-top: 2%;
-    border: 1px solid #ccc;
+
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
-}
 
 div.gallery img {
     width: 100%;
@@ -194,6 +168,7 @@ div.desc {
         width: 100%;
     }
 }
+
 
 .clearfix:after {
     content: "";
