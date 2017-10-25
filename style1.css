@@ -1,8 +1,9 @@
-html{background-color: #FAFAFA;}
+
 
 footer{margin-top:2%;}
-footer a {color:#ABCB89;
-}
+footer a {color:#ABCB89;}
+
+
  nav{
    background-color:#AED581;
    color: #F1F8E9;
@@ -104,6 +105,7 @@ div.h3{
   font-size: 26px;
   font-family: Lisichka Comic;
   color: #212121;
+
 }
 
 
@@ -130,10 +132,54 @@ div.h3{
 
 .container:hover .middle { opacity: 1; }
 
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #AED581;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #AED581;
+}
+
+.Admin {
+    border-radius: 5px;
+    padding: 20px;
+    float: right;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 24.99999;
+    padding: auto;
+
+
+
+}
+
+
+#map{
+  weight:70%;
+  height:600px;
+  background:white;
+  margin-top: 45px;
+}
 
 div.gallery {
   margin-top: 2%;
-
 }
 
 
