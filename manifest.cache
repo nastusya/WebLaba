@@ -1,0 +1,14 @@
+CASHE MANIFEST
+
+style1.css
+favicon.jpg
+index.html
+newspage.html
+comments.html
+contacts.html
+admin.html
+css/bootstrap.min.css
+
+
+FALLBACK:
+error.html

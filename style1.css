@@ -128,11 +128,14 @@ div.h3{
   -ms-transform: translate(-50%, -50%)
 }
 
+.back{
+  color:#ABCB89;
+}
 .container:hover .image { opacity: 0.3; }
 
 .container:hover .middle { opacity: 1; }
 
-input[type=text], select {
+textarea[type=text], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -174,7 +177,7 @@ input[type=submit]:hover {
 #map{
   weight:70%;
   height:600px;
-  background:white;
+  background:grey;
   margin-top: 45px;
 }
 
@@ -182,7 +185,12 @@ div.gallery {
   margin-top: 2%;
 }
 
-
+.center{
+  text-align: center;
+  font-family:  Lisichka Comic;
+  font-size: 26px;
+  color:#212121;
+}
 div.gallery img {
     width: 100%;
     height: auto;
