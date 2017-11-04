@@ -1,14 +1,27 @@
-CASHE MANIFEST
+CACHE MANIFEST
 
-style1.css
-favicon.jpg
 index.html
 newspage.html
 comments.html
 contacts.html
 admin.html
-css/bootstrap.min.css
+error.html
+program.html
+iot.png
+iot1.jpg
+iot2.png
+iot3.png
+photo.jpeg
+12.jpeg
 
+w3.css
+style1.css
+css/bootstrap.min.css
+css3/bootstrap.min.css
+js/jquery.min.js
+js/bootstrap.min.js
+
+favicon.jpg
 
 FALLBACK:
 error.html
