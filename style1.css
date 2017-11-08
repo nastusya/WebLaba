@@ -173,7 +173,14 @@ input[type=submit]:hover {
 
 }
 
+.review-author{
+  margin-top: 3%;
+  text-align:left;
+  font-size: 26px;
+  font-family: Lisichka Comic;
+  color: #212121;
 
+}
 #map{
   weight:70%;
   height:600px;

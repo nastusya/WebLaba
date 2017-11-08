@@ -9,11 +9,15 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="style1.css"/>
 	<link rel="stylesheet" href="w3.css">
-	<link rel="stylesheet" href="css3/bootstrap.min.css">
+	<link rel='stylesheet' href='css/magnific-popup.css'>
+	<script src="comments.js"></script>
+	<script src='js/scroolreveal.js'></script>
+	<script src='js/magnific-popup.js'></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css3/bootstrap.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -51,79 +55,53 @@
 	</div>
 </nav>
 
-<div class="container" style="margin-top: 60px;">
-	<table class="table">
-		<thead>
-		<tr>
-			<th style="font-size: 26px;  color:#212121; font-family: Lisichka Comic;">
-				Марта Лютик
-			</th>
-		</tr>
-		</thead>
-		<tbody>
-		<tr>
-			<td class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-				aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-				in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-				officia deserunt mollit anim id est laborum.
-			</td>
-		</tr>
-		</tbody>
-	</table>
-</div>
-<div class="container" style="margin-top: 60px;">
-	<table class="table">
-		<thead>
-		<tr>
-			<th style="font-size: 26px;  color:#212121; font-family: Lisichka Comic;">
-				Зеновій Верес
-			</th>
-		<tr>
-			<td class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-				aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-				in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-				officia deserunt mollit anim id est laborum.
-			</td>
-		</tr>
-	</table>
-</div>
-<div class="container" style="margin-top: 60px;">
-	<table class="table">
-		<thead>
-		<tr>
-			<th style="font-size: 26px;  color:#212121; font-family: Lisichka Comic;">
-				Кулик Назар
-			</th>
-		<tr>
-			<td class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-				aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-				in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-				officia deserunt mollit anim id est laborum.
-			</td>
-		</tr>
-	</table>
-</div>
-<div class="container">
-	<form>
-		<div class="form-group">
-			<label for="email">Coments:</label>
-			<input type="coments" style="height:80px;" class="form-control" id="coments"
-			       placeholder="Enter coments">
+
+
+<div class="container" style=" margin-top:60px">
+	<div class="main-text">
+		<div class="h1">
+			<h1>Відгуки</h1>
+	</div>
+	<br>
+
+		<div id="reviews-list">
+			<div class="container card">
+				<span class="review-author">Кулик Назар</span>
+				<span class="review-date">11.11.2017, 14:00</span>
+				<p>
+					<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus eget ipsum nec vulputate.
+					Sed vestibulum augue vel dictum imperdiet. Duis sed augue posuere, tempus diam vitae, efficitur
+					ligula. Ut nec neque condimentum, vehicula ligula bibendum, bibendum lacus. Maecenas consectetur
+					hendrerit laoreet. Donec massa nunc, mattis ut auctor non, lobortis a mauris. Donec commodo, ex eget
+					gravida ornare, leo eros egestas mauris, nec pulvinar ipsum turpis eu urna. Donec suscipit purus
+					velit, sit amet vehicula erat consequat ac. Donec pretium mattis justo, eu finibus dolor scelerisque
+					non. Fusce risus ipsum, lobortis in maximus ut, tincidunt sit amet lacus. Nullam efficitur lectus at
+					mauris gravida, in tristique quam faucibus. Etiam sagittis cursus lorem, eu dapibus nisi accumsan a.
+					Sed ultricies felis ut tortor blandit tempor.
+				</p><br>
+			</div>
 		</div>
-		<label><input type="checkbox"> Remember me</label>
-		&nbsp
-		<button type="submit" class="btn btn-default">Submit</button>
-	</form>
+		<br><br>
+		<form class="container card" id="form">
+			<div class="h3">
+			<h3>Новий відгук</h3>
+		</div>
+			<div class="form-group">
+				<div class="col-xs-12">
+					<input id="name" type="text" class="form-control" placeholder="Your Name">
+				</div>
+				<br><br>
+				<div class="col-xs-12">
+					<textarea id="text" class="form-control" rows="7" placeholder="New comments..."></textarea>
+					<br>
+					<label><input type="checkbox"> Remember me</label>	&nbsp
+					<input type="button" value="Send" class="btn btn-primary" onclick="addReview()">
+				</div>
+			</div>
+		</form>
+	</div>
 </div>
+
 
 <footer>
 	<p>Made by: Nastya Viznychak</p>
@@ -131,6 +109,7 @@
 		<a href="mailto:someone@example.com">nastasuper5@gmail.com </a>
 	</p>
 </footer>
+
 
 </body>
 </html>
