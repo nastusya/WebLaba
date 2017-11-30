@@ -1,6 +1,3 @@
-/**
- * Created by Antonina on 20.11.2017.
- */
 
 var useLocalStorage = true;
 
