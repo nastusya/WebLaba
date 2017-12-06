@@ -1,0 +1,31 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "description": "lab10",
+  "main": "index.js",
+  "scripts": {
+    "test": "Error",
+     "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nastusya/WebLaba.git"
+  },
+  "keywords": [
+    "nastusya"
+  ],
+  "author": "Nastya Viznychak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nastusya/WebLaba/issues"
+  },
+  "homepage": "https://github.com/nastusya/WebLaba#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0"
+  }
+}
