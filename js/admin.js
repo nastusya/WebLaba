@@ -20,7 +20,7 @@ function addNews() {
             list.push({"name": (name), "text": (text)});
             localStorage.setItem('n' + i, JSON.stringify(list));
 
-        }else {
+        } else {
             var transaction = db.transaction(["news"], "readwrite");
             var store = transaction.objectStore("news");
             var news1 = {
